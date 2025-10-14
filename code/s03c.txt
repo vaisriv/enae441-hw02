@@ -1,0 +1,4 @@
+X1 (LEO): human spaceflight / Earth observation; frequent revisits, moderate global coverage
+X2 (MEO): GNSS constellation-style navigation; near 12-hour period gives repeating ground tracks
+X3 (Molniya): long dwell over high northern latitudes—ideal for comms and ISR in high-lat regions
+X4 (GEO): continuous coverage over a fixed longitude—telecom, weather, and broadcast

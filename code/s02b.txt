@@ -1,0 +1,7 @@
+Perifocal: orbit is a fixed ellipse in the spacecraft orbital plane
+	Great for two-body analytics and interpreting anomalies (θ), but has no Earth context.
+ECI: ellipse is fixed in inertial space (no Earth rotation)
+	Good for multi-body perturbations and inter-frame transforms; longitude/latitude are not obvious.
+ECEF: Earth-fixed axes rotate with the planet; the trajectory appears to sweep over the rotating Earth
+	This is the natural frame for **ground tracks**, access windows, and station visibility, but motion
+	mixes orbital dynamics with Earth rotation.

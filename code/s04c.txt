@@ -1,0 +1,4 @@
+X1 (LEO): VISIBLE during one orbit from Goldstone.
+X2 (MEO): VISIBLE during one orbit from Goldstone.
+X3 (Molniya): NOT VISIBLE during one orbit from Goldstone.
+X4 (GEO): NOT VISIBLE during one orbit from Goldstone.

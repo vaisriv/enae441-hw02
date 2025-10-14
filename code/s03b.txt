@@ -1,0 +1,5 @@
+Closest approach to Earth occurs at perigee. Approximate subsatellite points (at t=0) are:
+X1 (LEO): perigee SSP ≈ lat +0.0°, lon -145.0°
+X2 (MEO): perigee SSP ≈ lat +0.0°, lon -145.0°
+X3 (Molniya): perigee SSP ≈ lat -63.4°, lon -10.0°
+X4 (GEO): perigee SSP ≈ lat +0.0°, lon +35.0°
