@@ -463,7 +463,7 @@ def main():
     print("enae441-hw02")
 
     # 1a
-    with open("./code/s01a.txt", "w", encoding="utf-8") as f:
+    with open("../outputs/text/s01a.txt", "w", encoding="utf-8") as f:
         f.write(
             np.array2string(
                 Peri_2_ECI(
@@ -484,7 +484,7 @@ def main():
         )
 
     # 1b
-    with open("./code/s01b.txt", "w", encoding="utf-8") as f:
+    with open("../outputs/text/s01b.txt", "w", encoding="utf-8") as f:
         f.write(
             np.array2string(
                 ECI_2_ECEF(
@@ -506,7 +506,7 @@ def main():
         )
 
     # 1c
-    with open("./code/s01c.txt", "w", encoding="utf-8") as f:
+    with open("../outputs/text/s01c.txt", "w", encoding="utf-8") as f:
         f.write(
             np.array2string(
                 ECEF_2_TOPO(
@@ -530,18 +530,18 @@ def main():
     plot_orbits()
 
     # 2b
-    with open("./code/s02b.txt", "w", encoding="utf-8") as f:
+    with open("../outputs/text/s02b.txt", "w", encoding="utf-8") as f:
         f.write(describe_orbits())
 
     # 3a
     plot_groundtracks()
 
     # 3b
-    with open("./code/s03b.txt", "w", encoding="utf-8") as f:
+    with open("../outputs/text/s03b.txt", "w", encoding="utf-8") as f:
         f.write(describe_spacecraft_proximity())
 
     # 3c
-    with open("./code/s03c.txt", "w", encoding="utf-8") as f:
+    with open("../outputs/text/s03c.txt", "w", encoding="utf-8") as f:
         f.write(describe_orbit_use_case())
 
     # 4a
@@ -551,7 +551,7 @@ def main():
     plot_range()
 
     # 4c
-    with open("./code/s04c.txt", "w", encoding="utf-8") as f:
+    with open("../outputs/text/s04c.txt", "w", encoding="utf-8") as f:
         f.write(describe_visibility())
 
     plt.show()
